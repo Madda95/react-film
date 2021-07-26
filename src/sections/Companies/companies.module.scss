@@ -1,0 +1,51 @@
+@import '../../styles/default.scss';
+
+.box {
+    min-height: 100vh;
+
+    & h3 {
+        text-align: center;
+        font-size: 70px;
+        font-weight: bold;
+        color: white;
+        margin-top: 0 60px;
+    }
+
+    .carouselCont {
+        margin-top: 100px;
+        padding: 0 70px;
+
+
+        .cards {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 100px;
+    
+            .companiesCard {
+                width: 380px;
+                height: 600px;
+                color: $main-color;
+
+                .img {
+                    width: 100%;
+                    height: 65%;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                
+
+                .title {
+                    font-size: 16px;
+                    margin: 25px 0;
+                }
+
+                .description {
+                    font: 14px;
+                }
+            }
+        }
+    }
+
+
+}
