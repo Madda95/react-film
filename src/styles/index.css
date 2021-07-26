@@ -47,7 +47,7 @@ table {
 
 @font-face {
 	font-family: 'Montserrat', sans-serif;
-	src: rl('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;800&display=swap');
+	src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;800&display=swap');
 }
 
 body::-webkit-scrollbar {
