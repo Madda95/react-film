@@ -15,22 +15,22 @@
 
         & img {
             width: 350px;
-            height: 100px;
+            height: 70px;
             object-fit: cover;
         }
 
         & h3 {
             color: white;
             margin-top: 15px;
-            font-size: 22px;
+            font-size: 18px;
         }
     }
 
     & h1 {
-        font-size: 100px;
+        font-size: 5.5rem;
         color: $main-color;
         text-align: center;
-        margin-top: 120px;
+        margin-top: 10vh;
         font-weight: 700    ;
     }
 
@@ -39,7 +39,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: 120px;
+        margin-top: 5vh;
         color: white;
 
         & span {
@@ -59,7 +59,7 @@
         justify-content: center;
         align-items: center;
         padding: 0 50px;
-        margin-top: 100px;
+        margin-top: auto;
 
         & a {
             width: calc(calc(100% - 140px) / 6);

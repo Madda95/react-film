@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './companies.module.scss';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import { carousel1, carousel2 } from './data';
 
 import testImg from '../../assets/cannes.png'
 
@@ -14,15 +15,14 @@ const Companies = () => {
             showStatus={false}
             >
                 <div className={styles.cards}>
-                    <CompanyCard img={testImg} title={'TEST'} description={'Società di produzione audiovisiva, cinematografica e televisiva con sede a Trieste fondata nel gennaio 2017.'}/>
-                    <CompanyCard img={testImg} title={'TEST'} description={'Società di produzione audiovisiva, cinematografica e televisiva con sede a Trieste fondata nel gennaio 2017.'}/>
-                    <CompanyCard img={testImg} title={'TEST'} description={'Società di produzione audiovisiva, cinematografica e televisiva con sede a Trieste fondata nel gennaio 2017.'}/>
-
+                    {
+                        carousel1.map(item => <CompanyCard img={item.img} title={item.title} description={item.description} key={item.title}/>)
+                    }
                 </div>
                 <div className={styles.cards}>
-                    <CompanyCard img={testImg} title={'TEST'} description={'Società di produzione audiovisiva, cinematografica e televisiva con sede a Trieste fondata nel gennaio 2017.'}/>
-                    <CompanyCard img={testImg} title={'TEST'} description={'Società di produzione audiovisiva, cinematografica e televisiva con sede a Trieste fondata nel gennaio 2017.'}/>
-                    <CompanyCard />
+                    {
+                        carousel2.map(item => <CompanyCard img={item.img} title={item.title} description={item.description} key={item.title}/>)
+                    }
                 </div>
             </Carousel>
         </div>
