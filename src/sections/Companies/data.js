@@ -1,5 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
-import A_Lab from '../../assets/A_Lab.png';
+import A_Lab from '../../assets/alab.png';
 import Pilgrim from '../../assets/pilgrim.png';
 import Sling from '../../assets/sling.png';
 

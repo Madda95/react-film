@@ -4,8 +4,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import { carousel1, carousel2 } from './data';
 
-import testImg from '../../assets/cannes.png'
-
 const Companies = () => {
     return <div className={styles.box}>
         <h3>Le aziende della rete</h3>
