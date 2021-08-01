@@ -33,6 +33,7 @@
             transition: 0.2s ease-in;
             position: relative;
             background-size: cover;
+            cursor: pointer;
 
             & h3 {
                 color: $main-color;
