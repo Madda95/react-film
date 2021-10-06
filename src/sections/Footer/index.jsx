@@ -6,6 +6,9 @@ const Footer = () => {
     return <div className={styles.box}>
         <div className={styles.main}>
             <div className={styles.contacts}>
+                <a>A-LAB</a>
+                <a>Via Mascagni 7</a>
+                <a>Trieste (TS)</a>
                 <a href="mailto:hello@react.it ">hello@react.it</a>
                 <a href="tel:+390402332992">+39 040 2332992</a>
             </div>

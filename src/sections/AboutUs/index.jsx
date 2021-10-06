@@ -8,33 +8,35 @@ const AboutUs = () => {
     return <div className={styles.box}>
         <h3>Che cos’è React ?</h3>
         <p>
-        REACT - REte Audiovisiva Competitività Tecnologia- nasce dalla volontà di un gruppo di sei imprese friulane afferenti al mondo della produzione e della realizzazione audiovisiva, cinematografica e televisiva che perseguono congiuntamente un duplice obiettivo: da un lato, favorire la visibilità e la competitività all'estero del network, valorizzandone le competenze, dall'altro ottimizzare e rafforzare i propri processi mediante l'acquisto di attrezzature, hardware e software che permettano di dare vita a solu- zioni sempre attuali e innovative rispetto alla costante evoluzione tecnologica dettata dal mercato.
+        REACT - Rete Audiovisiva Competitività Tecnologia- nasce dalla volontà di un gruppo di sei imprese friulane afferenti al mondo della produzione e della realizzazione audiovisiva, cinematografica e televisiva che perseguono congiuntamente un duplice obiettivo: da un lato, favorire la visibilità e la competitività all'estero del network, valorizzandone le competenze, dall'altro ottimizzare e rafforzare i propri processi mediante l'acquisto di attrezzature, hardware e software che permettano di dare vita a soluzioni sempre attuali e innovative rispetto alla costante evoluzione tecnologica dettata dal mercato.
         </p>
-        <h3>News</h3>
-
-        <div className={styles.newsContainer}>
-            <ReviewCard 
-                img={berlin}
-                imgOpen={cannes}
-                alt={'cannes'}
-                title={'REACT AL FESTIVAL DI CANNES'}
-                desc={`REACT - REte Audiovisiva Competitività Tecnologia- nasce dalla volontà di un gruppo di sei imprese friulane afferenti al mondo della produzione e della realizzazione audiovisiva, cinematografica e televisiva che perseguono congiuntamente un duplice obiettivo: da un lato, favorire la visibilità e la competitività all'estero del network, valorizzandone le competenze, dall'altro ottimizzare e rafforzare i propri processi mediante l'acquisto di attrezzature, hardware e software che permettano di dare vita a solu- zioni sempre attuali e innovative rispetto alla costante evoluzione tecnologica dettata dal mercato.`}
-            />
-            <ReviewCard 
-                img={berlin}
-                imgOpen={cannes}
-                alt={'cannes'}
-                title={'REACT AL FESTIVAL DI CANNES'}
-                desc={`REACT - REte Audiovisiva Competitività Tecnologia- nasce dalla volontà di un gruppo di sei imprese friulane afferenti al mondo della produzione e della realizzazione audiovisiva, cinematografica e televisiva che perseguono congiuntamente un duplice obiettivo: da un lato, favorire la visibilità e la competitività all'estero del network, valorizzandone le competenze, dall'altro ottimizzare e rafforzare i propri processi mediante l'acquisto di attrezzature, hardware e software che permettano di dare vita a solu- zioni sempre attuali e innovative rispetto alla costante evoluzione tecnologica dettata dal mercato.`}
-            />
-            <ReviewCard 
-                img={berlin}
-                imgOpen={cannes}
-                alt={'cannes'}
-                title={'REACT AL FESTIVAL DI CANNES'}
-                desc={`REACT - REte Audiovisiva Competitività Tecnologia- nasce dalla volontà di un gruppo di sei imprese friulane afferenti al mondo della produzione e della realizzazione audiovisiva, cinematografica e televisiva che perseguono congiuntamente un duplice obiettivo: da un lato, favorire la visibilità e la competitività all'estero del network, valorizzandone le competenze, dall'altro ottimizzare e rafforzare i propri processi mediante l'acquisto di attrezzature, hardware e software che permettano di dare vita a solu- zioni sempre attuali e innovative rispetto alla costante evoluzione tecnologica dettata dal mercato.`}
-            />
+        <div style={{display: 'none'}}>
+            <h3>News</h3>
+            <div className={styles.newsContainer}>
+                <ReviewCard 
+                    img={berlin}
+                    imgOpen={cannes}
+                    alt={'cannes'}
+                    title={'REACT AL FESTIVAL DI CANNES'}
+                    desc={`REACT - REte Audiovisiva Competitività Tecnologia- nasce dalla volontà di un gruppo di sei imprese friulane afferenti al mondo della produzione e della realizzazione audiovisiva, cinematografica e televisiva che perseguono congiuntamente un duplice obiettivo: da un lato, favorire la visibilità e la competitività all'estero del network, valorizzandone le competenze, dall'altro ottimizzare e rafforzare i propri processi mediante l'acquisto di attrezzature, hardware e software che permettano di dare vita a soluzioni sempre attuali e innovative rispetto alla costante evoluzione tecnologica dettata dal mercato.`}
+                />
+                <ReviewCard 
+                    img={berlin}
+                    imgOpen={cannes}
+                    alt={'cannes'}
+                    title={'REACT AL FESTIVAL DI CANNES'}
+                    desc={`REACT - REte Audiovisiva Competitività Tecnologia- nasce dalla volontà di un gruppo di sei imprese friulane afferenti al mondo della produzione e della realizzazione audiovisiva, cinematografica e televisiva che perseguono congiuntamente un duplice obiettivo: da un lato, favorire la visibilità e la competitività all'estero del network, valorizzandone le competenze, dall'altro ottimizzare e rafforzare i propri processi mediante l'acquisto di attrezzature, hardware e software che permettano di dare vita a soluzioni sempre attuali e innovative rispetto alla costante evoluzione tecnologica dettata dal mercato.`}
+                />
+                <ReviewCard 
+                    img={berlin}
+                    imgOpen={cannes}
+                    alt={'cannes'}
+                    title={'REACT AL FESTIVAL DI CANNES'}
+                    desc={`REACT - REte Audiovisiva Competitività Tecnologia- nasce dalla volontà di un gruppo di sei imprese friulane afferenti al mondo della produzione e della realizzazione audiovisiva, cinematografica e televisiva che perseguono congiuntamente un duplice obiettivo: da un lato, favorire la visibilità e la competitività all'estero del network, valorizzandone le competenze, dall'altro ottimizzare e rafforzare i propri processi mediante l'acquisto di attrezzature, hardware e software che permettano di dare vita a soluzioni sempre attuali e innovative rispetto alla costante evoluzione tecnologica dettata dal mercato.`}
+                />
+            </div>
         </div>
+
     </div>
 }
 

@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './landing.module.scss';
 import logo_white from '../../assets/logo_white.png';
 import arrow_down from '../../assets/arrow-down.png';
-import bg from '../../assets/bg.png';
+import bg from '../../assets/bg2.jpg';
 
 import ghirigori from '../../assets/companies/ghirigori.png';
 import lab from '../../assets/companies/lab.png';
@@ -23,22 +23,22 @@ const Landing = () => {
             <img src={arrow_down} alt='freccia' />
         </div>
         <div className={styles.carousel}>
-            <a href='https://www.google.it' target="_blank" rel="noreferrer">
+            <a href='https://www.a-lab.eu' target="_blank" rel="noreferrer">
                 <img src={lab} alt='Logo lab' />
             </a>
-            <a href='https://www.google.it' target="_blank" rel="noreferrer">
+            <a href='https://www.cooperativapuntozero.it/about' target="_blank" rel="noreferrer">
                 <img src={tracciato} alt='Logo Tracciato' />
             </a>
-            <a href='https://www.google.it' target="_blank" rel="noreferrer">
+            <a href='http://teslaproduction.it' target="_blank" rel="noreferrer">
                 <img src={tesla} alt='Logo Tesla film' />
             </a>
-            <a href='https://www.google.it' target="_blank" rel="noreferrer">
+            <a href='https://www.pilgrimfilm.it' target="_blank" rel="noreferrer">
                 <img src={pilgrim} alt='Logo pilgrim' />
             </a>
-            <a href='https://www.google.it' target="_blank" rel="noreferrer">
+            <a href='www.ghiri-gori.com' target="_blank" rel="noreferrer">
                 <img src={ghirigori} alt='Logo Ghirigori' />
             </a>
-            <a href='https://www.google.it' target="_blank" rel="noreferrer">
+            <a href='https://www.slingshotfilms.it' target="_blank" rel="noreferrer">
                 <img src={slingshotfilm} alt='Logo Sling shot film' />
             </a>
         </div>

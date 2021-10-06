@@ -2,39 +2,42 @@
 import A_Lab from '../../assets/alab.png';
 import Pilgrim from '../../assets/pilgrim.png';
 import Sling from '../../assets/sling.png';
+import Puntozero from '../../assets/PUNTO_ZERO.jpg';
+import Ghirigori from '../../assets/GHIRI_GORI.jpg';
+import Tesla from '../../assets/TESLA_PRODUCTION.jpg';
 
 export const carousel1 = [
     {
         img: A_Lab,
         title: 'A_LAB',
-        description: 'Società di produzione audiovisiva, cinematografica e televisiva con sede a Trieste fondata nel gennaio 2017.'
+        description: 'SA-LAB, società di produzione audiovisiva, cinematografica e televisiva con sede a Trieste fondatanel gennaio 2017;'
     },
     {
         img: Pilgrim,
         title: 'PILGRIM',
-        description: 'Fondata nel 2008 a Trieste e da sempre vocata alle co-produzioni europee, sviluppa e produce film e documentari di autori emergenti europei.'
+        description: 'PILGRIM FILM, fondata nel 2008 a Trieste e da sempre vocata alle co-produzioni europee, sviluppa e produce film e documentari di autori emergenti europei;'
     },
     {
         img: Sling,
-        title: 'A_LAB',
-        description: 'Società che si occupa di vendita di sviluppo e di produzione cinematografica e audiovisiva.'
+        title: 'SLINGSHOT',
+        description: 'SLINGSHOT FILMS, affianca alle attività di vendita la più recente attività di sviluppo e produzione cinematografica e audiovisiva'
     }
 ]
 
 export const carousel2 = [
     {
-        img: A_Lab,
+        img: Puntozero,
         title: 'PUNTO ZERO',
-        description: 'Costituita da un pool di professionisti, la cooperativa ha un cuore multidisciplinare e si occupa di produzioni video, fotografia, allestimenti, arredi di spazi urbani o boschivi, installazioni, workshop, sviluppo di progetti culturali, festival, mostre d’arte'
+        description: 'PUNTO ZERO, costituita da un pool di professionisti, la cooperativa ha un cuore multidisciplinare e si occupa di produzioni video, fotografia, allestimenti, arredi di spazi urbani o boschivi, installazioni, workshop, sviluppo di progetti culturali, festival, mostre d’arte;'
     },
     {
-        img: Pilgrim,
+        img: Ghirigori,
         title: 'GHIRIGORI',
-        description: 'Società di produzione audiovisiva di documentari di creazione'
+        description: 'GHIRIGORI, società di produzione audiovisiva di documentari di creazione;'
     },
     {
-        img: Sling,
+        img: Tesla,
         title: 'TESLA PRODUCTION',
-        description: 'società di produzione fondata nel 2007, realizza contenuti audiovisivi per cinema, televisione e web'
+        description: 'TESLA PRODUCTION, società di produzione fondata nel 2007, realizza contenuti audiovisivi per cinema, televisione e web'
     },
 ]
