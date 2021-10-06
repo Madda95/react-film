@@ -2,9 +2,9 @@
 import A_Lab from '../../assets/alab.png';
 import Pilgrim from '../../assets/pilgrim.png';
 import Sling from '../../assets/sling.png';
-import Puntozero from '../../assets/puntozero.jpg';
+import Puntozero from '../../assets/puntozero_.jpg';
 import Ghirigori from '../../assets/GHIRI_GORI.jpg';
-import Tesla from '../../assets/tesla.jpg';
+import Tesla from '../../assets/tesla_.jpg';
 
 export const carousel1 = [
     {
