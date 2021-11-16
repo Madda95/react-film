@@ -14,12 +14,12 @@ const Companies = () => {
             >
                 <div className={styles.cards}>
                     {
-                        carousel1.map(item => <CompanyCard img={item.img} title={item.title} description={item.description} key={item.title}/>)
+                        carousel1.map(item => <CompanyCard img={item.img} title={item.title} description={item.description} url={item.url} key={item.title}/>)
                     }
                 </div>
                 <div className={styles.cards}>
                     {
-                        carousel2.map(item => <CompanyCard img={item.img} title={item.title} description={item.description} key={item.title}/>)
+                        carousel2.map(item => <CompanyCard img={item.img} title={item.title} description={item.description} url={item.url} key={item.title}/>)
                     }
                 </div>
             </Carousel>
@@ -28,12 +28,12 @@ const Companies = () => {
 };
 
 
-const CompanyCard = ({img, title, description}) => {
-    return <div className={styles.companiesCard}>
+const CompanyCard = ({img, title, description, url}) => {
+    return <a className={styles.companiesCard} href={url} target='_blank' rel="noreferrer" style={{textDecoration: 'unset'}}>
         <div className={styles.img} style={{backgroundImage: `url(${img})`}} role={'img'} alt={title}></div>
         <div className={styles.title}>{title}</div>
         <p className={styles.description}>{description}</p>
-    </div>
+    </a>
 }
 
 export default Companies;
