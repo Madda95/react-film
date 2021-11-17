@@ -11,6 +11,16 @@ import tesla from '../../assets/companies/tesla.png';
 import tracciato from '../../assets/companies/tracciato.png';
 import pilgrim from '../../assets/companies/pilgrim.png';
 
+import scrollToElement from 'scroll-to-element';
+
+const navigateTo = () => {
+    scrollToElement('#what-is', {
+        offset: -20,
+        ease: 'linear',
+        duration: 250
+    })
+}
+
 const Landing = () => {
     return <div className={styles.box} style={{background: 'url(' + bg + ')'}}>
         <div className={styles.header}>
@@ -18,7 +28,7 @@ const Landing = () => {
             <h3>la rete delle imprese dell' audiovisivo</h3>
         </div>
         <h1>Le cose si cambiano <br /> in un solo modo.<br /> Insieme.</h1>
-        <div className={styles.discoverCont}>
+        <div className={styles.discoverCont} onClick={navigateTo}>
             <span>scopri chi siamo</span>
             <img src={arrow_down} alt='freccia' />
         </div>

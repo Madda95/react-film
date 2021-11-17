@@ -6,7 +6,7 @@ import ghirigori from '../../assets/ghirigori_film.png';
 
 const AboutUs = () => {
     return <div className={styles.box}>
-        <h3>Che cos’è React ?</h3>
+        <h3 id='what-is'>Che cos’è React ?</h3>
         <p>
         REACT - Rete Audiovisiva Competitività Tecnologia- nasce dalla volontà  di sei imprese friulane appartenenti al mondo della produzione e della realizzazione audiovisiva, cinematografica e televisiva. Attraverso questa rete aziendale, le imprese coinvolte perseguono congiuntamente un duplice obiettivo: favorire la visibilità e la competitività all'estero del network, valorizzandone le competenze, e ottimizzare e rafforzare i propri processi mediante l'acquisto di attrezzature - hardware e software - che permettano di dare vita a soluzioni sempre attuali e innovative rispetto alla costante evoluzione tecnologica dettata dal mercato.        </p>
         <div style={{display: 'none'}}>
