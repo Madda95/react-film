@@ -6,33 +6,17 @@ import Puntozero from '../../assets/puntozero_.jpg';
 import Ghirigori from '../../assets/GHIRI_GORI.jpg';
 import Tesla from '../../assets/tesla_.jpg';
 
-/*
-            <a href=target="_blank" rel="noreferrer">
-                <img src={lab} alt='Logo lab' />
-            </a>
-            <a href= target="_blank" rel="noreferrer">
-                <img src={tracciato} alt='Logo Tracciato' />
-            </a>
-            <a href= target="_blank" rel="noreferrer">
-                <img src={tesla} alt='Logo Tesla film' />
-            </a>
-            <a href=target="_blank" rel="noreferrer">
-                <img src={ghirigori} alt='Logo Ghirigori' />
-            </a>
-
-*/
-
 export const carousel1 = [
     {
         img: A_Lab,
         title: 'A_LAB',
-        description: 'Società di produzione audiovisiva, cinematografica e televisiva con sede a Trieste fondatanel gennaio 2017',
+        description: 'Società di produzione audiovisiva, cinematografica e televisiva con sede a Trieste fondata nel gennaio 2017',
         url: 'https://www.a-lab.eu' 
     },
     {
         img: Pilgrim,
         title: 'PILGRIM',
-        description: 'Fondata nel 2008 a Trieste e da sempre vocata alle co-produzioni europee, sviluppa e produce film e documentari di autori emergenti europei',
+        description: 'Fondata nel 2008 a Trieste e da sempre con una vocazione alle co-produzioni europee, sviluppa e produce film e documentari di autori emergenti europei',
         url: 'https://www.pilgrimfilm.it' 
     },
     {
@@ -54,7 +38,7 @@ export const carousel2 = [
         img: Ghirigori,
         title: 'GHIRIGORI',
         description: 'Società di produzione audiovisiva di documentari di creazione',
-        url: 'www.ghiri-gori.com' 
+        url: 'http://www.ghiri-gori.com' 
     },
     {
         img: Tesla,

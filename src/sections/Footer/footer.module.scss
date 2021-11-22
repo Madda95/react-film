@@ -9,6 +9,14 @@
     padding: 0 100px;
     color: $main-color;
 
+    & h3 {
+        text-align: center;
+        font-size: 70px;
+        font-weight: bold;
+        color: white;
+        margin: 100px 0;
+    }
+
     .main {
         width: 100%;
         display: flex;
@@ -33,11 +41,12 @@
         }
     
         .map {
-            min-width: 65%;
+            min-width: 50%;
             height: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
+            margin-left: auto;
     
             & iframe {
                 width: 100%;
@@ -56,6 +65,7 @@
         margin-bottom: 30px;
 
         .line {
+            margin-top: 50px;
             height: 1px;
             width: 100%;
             background-color: $main-color;

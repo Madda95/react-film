@@ -45,7 +45,7 @@ const Landing = () => {
             <a href='https://www.pilgrimfilm.it' target="_blank" rel="noreferrer">
                 <img src={pilgrim} alt='Logo pilgrim' />
             </a>
-            <a href='www.ghiri-gori.com' target="_blank" rel="noreferrer">
+            <a href='https://www.ghiri-gori.com' target="_blank" rel="noreferrer">
                 <img src={ghirigori} alt='Logo Ghirigori' />
             </a>
             <a href='https://www.slingshotfilms.it' target="_blank" rel="noreferrer">
