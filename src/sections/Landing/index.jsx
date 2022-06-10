@@ -53,7 +53,7 @@ const Landing = () => {
             </a>
         </div>
         <div className={styles.landFoot}>
-            Progetto di rete sostenuto dalla Camera di Commercio Venezia Giulia Trieste Gorizia
+            Il progetto di rete React è sostenuto dal contributo regionale L.R. 4/2013 nell’ambito degli incentivi per progetti di aggregazione in rete
         </div>
     </div>
 }
